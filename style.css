@@ -1,0 +1,274 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.v1 {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.v2 {
+    font-size: 1rem;
+    margin-left: 3px;
+
+}
+
+.add {
+    display: flex;
+}
+
+.navbar {
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 110px;
+}
+
+.logo {
+    background-image: url(amazon_logo.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+.border {
+    border: 1px transparent white;
+    border-radius: 2px;
+}
+
+.border:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.nav-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 570px;
+    height: 40px;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 5%;
+    background-color: orange;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+input {
+    color: grey;
+    padding-left: 30px;
+    height: 40px;
+    border: none;
+    width: 90%;
+}
+
+select {
+    align-content: center;
+    height: 40px;
+    border: 1px solid pink;
+    background-color: pink;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+span {
+    font-size: 0.7rem;
+}
+
+.nav-font {
+    font-size: 0.85em;
+    font-weight: 700;
+}
+
+.cart {
+    display: flex;
+    margin-right: 10px;
+    /* width: 30px; */
+}
+
+.cart i {
+    font-size: 30px;
+
+}
+
+.cart p {
+    align-self: flex-end;
+}
+
+.list {
+    display: flex;
+    background-color: #222f3d;
+    color: white;
+    align-items: center;
+    height: 40px;
+    justify-content: space-evenly;
+}
+
+.options {
+    display: inline;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 0.85rem;
+    width: 70%;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+
+.deals {
+    width: 20%;
+    font-size: 0.9rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.herosection {
+    background-image: url(hero_image.jpg);
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.heromsg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+}
+
+.sp {
+    color: #007184;
+}
+
+.shop {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e5;
+}
+
+.box {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    margin-top: 15px;
+}
+
+.box-img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+    background-color: palegreen;
+    height: 300px;
+}
+
+.box-content {
+    margin-top: 20px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.f1 {
+    display: flex;
+    background-color: #37475a;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.f2 {
+    display: flex;
+    background-color: #222f3d;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    color: white;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    margin: 20px;
+}
+
+.f3 {
+    display: flex;
+    background-color: #222f3d;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.g {
+    height: 50px;
+    width: 90px;
+    margin-right: 50px;
+}
+
+.f {
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222f3d;
+    color: gray;
+    height: 50px;
+    width: 100px;
+    margin-right: 5px;
+}
+
+.h {
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222f3d;
+    color: gray;
+    height: 50px;
+    width: 150px;
+    margin-right: 5px;
+}
